@@ -467,6 +467,76 @@ button:active {
   margin-bottom: 20px;
 }
 
+/* CALIFICACIÓN TABLA */
+table {
+  border: 2px solid rgb(250, 248, 248);
+  /* border-collapse: collapse; */
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 6px;
+  font-family: Verdana, sans-serif;
+  font-weight: 700;
+}
+
+.contect-cali h3 {
+  letter-spacing: 0.3rem;
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+table tr td {
+  padding: 20px;
+}
+
+table .cali {
+  transition: 0.2s all linear;
+  cursor: pointer;
+}
+
+table #cali-1:hover {
+  background: rgb(156, 18, 18);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+table #cali-2:hover {
+  background: rgba(156, 18, 18, 0.664);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+table #cali-3:hover {
+  background: rgb(18, 151, 156);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+table #cali-4:hover {
+  background: rgb(4, 97, 126);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+table #cali-5:hover {
+  background: rgba(15, 148, 55, 0.932);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
 #sections .date {
   color: gray;
   font-size: 14px;
@@ -733,14 +803,12 @@ footer .redes-sociales .contenedor {
   color: white;
 }
 
-
-
 footer .contacto .formulario input[type="text"],
 footer .contacto .formulario input[type="email"],
-footer .contacto .formulario textarea{
-    width: 100%;
+footer .contacto .formulario textarea {
+  width: 100%;
 }
 
-.tesArea{
-    width: 70%;
+.tesArea {
+  width: 70%;
 }
