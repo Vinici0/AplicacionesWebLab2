@@ -1,2 +1,2 @@
 # AplicacionesWebLab2
-Uso de formularios y tabla ☺
+Uso de formularios y tablas ☺
